@@ -24,6 +24,7 @@ chown -R pythonapp:pythonapp /opt/app
 
 # Put supervisor configuration in proper place
 cp /opt/app/gce/python-app.conf /etc/supervisor/conf.d/python-app.conf
+cp /opt/app/translator/translator-app.conf /etc/supervisor/conf.d/python-app.conf
 
 # Start service via supervisorctl
 supervisorctl reread
