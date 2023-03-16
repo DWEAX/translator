@@ -1,0 +1,2 @@
+fastapi_offline==1.5.2
+uvicorn==0.21.0
